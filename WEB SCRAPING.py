@@ -1,10 +1,8 @@
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
-from datetime import datetime, timedelta
 from datetime import date
 import schedule
 import time
-import pandas as pd
 
 #Funcao para executar o codigo de acordo com as configuracoes do schedule no final do codigo
 def EXECUTA_CODIGO_NOVAMENTE():
